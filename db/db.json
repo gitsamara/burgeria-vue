@@ -1,0 +1,123 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Brioche"
+      },
+      {
+        "id": 2,
+        "tipo": "Italiano"
+      },
+      {
+        "id": 3,
+        "tipo": "Australiano"
+      },
+      {
+        "id": 4,
+        "tipo": "Vegano"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Alface"
+      },
+      {
+        "id": 4,
+        "tipo": "Molho"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "a389",
+      "nome": "Samara Sales",
+      "carne": "Maminha",
+      "pao": "Australiano",
+      "opcionais": [
+        "Bacon",
+        "Alface",
+        "Cebola",
+        "Molho"
+      ],
+      "status": "Em produção"
+    },
+    {
+      "id": "f048",
+      "nome": "Vagner Carvalho",
+      "carne": "Maminha",
+      "pao": "Brioche",
+      "opcionais": [
+        "Alface",
+        "Cebola",
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "b0f0",
+      "nome": "Serimar Sales",
+      "carne": "Picanha",
+      "pao": "Italiano",
+      "opcionais": [
+        "Bacon",
+        "Alface",
+        "Cebola",
+        "Cheddar",
+        "Molho",
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    }
+  ]
+}
